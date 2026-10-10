@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "evaluations": 46,
+  "checks": [
+    "source and feature SHA-256",
+    "prediction SHA-256 and label order",
+    "metrics recomputed from stored float32 predictions (tolerance 1e-5)",
+    "complete method/shot/seed coverage",
+    "stratified support label budget",
+    "disjoint fit/validation within support",
+    "identical support across methods",
+    "correct GP tuning objective and iteration count",
+    "aggregate mean and sample standard deviation recomputed",
+    "official trainval/test image IDs are disjoint and match cache counts"
+  ],
+  "test_predictions": 3669,
+  "audit_script_sha256": "08e3edafdc76e9eb0d8be380803b897fe80261611ec658b19045515e137dc3b8",
+  "split_sha256": {
+    "trainval.txt": "408f3f609481b939c94634169e6413414b733a3faeba440cbdcc5c02142eebdc",
+    "test.txt": "a5454003774ffe01f4f322756d3ba5495bae21cb30bb217ab285dbfa2bef245c"
+  }
+}

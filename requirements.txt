@@ -1,0 +1,40 @@
+
+# Project Instructions
+
+## Assignment
+AI Assignment # 2 aims to find a recent classification/recognition algorithm
+based on probability or Bayes theory for computer vision and pattern recognition.
+report in markdown format should contain detailed steps on how you did this assignment, includ-
+ing:
+(1) how AI finds the algorithm, 
+(2) algorithm description, 
+(3) how AI implements the algorithm, 
+(4) experiment settings and results, 
+(5) what you have learnt from this AI assignment, and 
+(6) a webpage link of your source codes.(I will provide the GitHub link after completing the algorithm selecting)
+
+## Workflow
+1.Understand the Assignment and Search for Algorithms
+Extract the assignment requirements and identify recent classification or recognition algorithms based on probability or Bayesian theory.
+
+2.Evaluate Algorithms and Select an Approach
+Compare candidate algorithms in terms of theoretical foundations, novelty, data requirements, implementation complexity, and computational cost.
+
+3.Set Up the Environment and Implement the Algorithm
+Check dependencies, datasets, official implementations, and hardware compatibility before implementing the selected algorithm.
+
+4.Run Experiments and Validate Results
+Execute training and testing, record evaluation metrics, troubleshoot errors, and save experiment logs.
+
+5.Organize Evidence and Write the Report
+Use actual logs and experimental outputs to prepare the report, ensuring that references, results, and source-code links are accurate.
+
+6. Final Review and Submission
+Verify the report, code repository, experimental results, and reproduction instructions for consistency and completeness.
+
+## Token Efficiency
+- Do not repeatedly summarize the entire project.
+- Read only files relevant to the current task.
+- Keep terminal output concise; save full logs to files.
+- Limit debugging retries and experiment runs.
+- Give brief status updates and a concise final summary.

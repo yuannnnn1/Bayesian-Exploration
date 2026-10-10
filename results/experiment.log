@@ -1,0 +1,49 @@
+Dataset: 3680 trainval / 3669 test / 37 classes
+Hyperparameter selection uses support samples only; final prediction uses all support samples.
+zero_shot_clip         shots= 0 seed=None accuracy=0.831289 macro_f1=0.820310 nll=0.5464 ece=0.0551 seconds=0.003
+bayesian_clip_dino     shots= 1 seed=0    accuracy=0.845462 macro_f1=0.838070 nll=0.7880 ece=0.1692 seconds=0.861
+bayesian_clip_only     shots= 1 seed=0    accuracy=0.841646 macro_f1=0.833675 nll=0.9230 ece=0.2291 seconds=0.078
+ridge_clip             shots= 1 seed=0    accuracy=0.289725 macro_f1=0.264059 nll=3.3511 ece=0.1257 seconds=0.006
+bayesian_clip_dino     shots= 1 seed=1    accuracy=0.844099 macro_f1=0.843203 nll=0.8220 ece=0.2803 seconds=0.091
+bayesian_clip_only     shots= 1 seed=1    accuracy=0.833742 macro_f1=0.827168 nll=0.9437 ece=0.3168 seconds=0.072
+ridge_clip             shots= 1 seed=1    accuracy=0.297084 macro_f1=0.271214 nll=3.1359 ece=0.1353 seconds=0.006
+bayesian_clip_dino     shots= 1 seed=2    accuracy=0.841919 macro_f1=0.837532 nll=0.6791 ece=0.1475 seconds=0.090
+bayesian_clip_only     shots= 1 seed=2    accuracy=0.836468 macro_f1=0.827852 nll=0.7582 ece=0.1847 seconds=0.073
+ridge_clip             shots= 1 seed=2    accuracy=0.282638 macro_f1=0.264925 nll=3.2379 ece=0.1235 seconds=0.006
+bayesian_clip_dino     shots= 2 seed=0    accuracy=0.851186 macro_f1=0.844796 nll=0.8498 ece=0.2836 seconds=0.148
+bayesian_clip_only     shots= 2 seed=0    accuracy=0.842464 macro_f1=0.835722 nll=0.9794 ece=0.3233 seconds=0.120
+ridge_clip             shots= 2 seed=0    accuracy=0.429272 macro_f1=0.415004 nll=2.4435 ece=0.3149 seconds=0.008
+bayesian_clip_dino     shots= 2 seed=1    accuracy=0.852276 macro_f1=0.852083 nll=0.8533 ece=0.3121 seconds=0.143
+bayesian_clip_only     shots= 2 seed=1    accuracy=0.842191 macro_f1=0.839669 nll=1.0379 ece=0.3581 seconds=0.119
+ridge_clip             shots= 2 seed=1    accuracy=0.448896 macro_f1=0.433490 nll=2.4426 ece=0.3369 seconds=0.008
+bayesian_clip_dino     shots= 2 seed=2    accuracy=0.858545 macro_f1=0.857962 nll=0.7593 ece=0.2645 seconds=0.143
+bayesian_clip_only     shots= 2 seed=2    accuracy=0.849550 macro_f1=0.847028 nll=0.8930 ece=0.3107 seconds=0.118
+ridge_clip             shots= 2 seed=2    accuracy=0.447806 macro_f1=0.429369 nll=2.4319 ece=0.3368 seconds=0.008
+bayesian_clip_dino     shots= 4 seed=0    accuracy=0.855546 macro_f1=0.851985 nll=0.8683 ece=0.2967 seconds=0.222
+bayesian_clip_only     shots= 4 seed=0    accuracy=0.847915 macro_f1=0.844028 nll=1.0170 ece=0.3440 seconds=0.183
+ridge_clip             shots= 4 seed=0    accuracy=0.579722 macro_f1=0.570458 nll=2.0629 ece=0.4077 seconds=0.012
+bayesian_clip_dino     shots= 4 seed=1    accuracy=0.863178 macro_f1=0.863747 nll=0.8769 ece=0.3199 seconds=0.218
+bayesian_clip_only     shots= 4 seed=1    accuracy=0.857182 macro_f1=0.856731 nll=1.0314 ece=0.3746 seconds=0.183
+ridge_clip             shots= 4 seed=1    accuracy=0.564732 macro_f1=0.547499 nll=2.2072 ece=0.4316 seconds=0.011
+bayesian_clip_dino     shots= 4 seed=2    accuracy=0.874625 macro_f1=0.875227 nll=0.8150 ece=0.3369 seconds=0.218
+bayesian_clip_only     shots= 4 seed=2    accuracy=0.860998 macro_f1=0.859940 nll=0.9580 ece=0.3768 seconds=0.183
+ridge_clip             shots= 4 seed=2    accuracy=0.592805 macro_f1=0.577307 nll=2.2167 ece=0.4633 seconds=0.011
+bayesian_clip_dino     shots= 8 seed=0    accuracy=0.874625 macro_f1=0.875538 nll=0.8538 ece=0.3338 seconds=0.578
+bayesian_clip_only     shots= 8 seed=0    accuracy=0.862633 macro_f1=0.863312 nll=0.9868 ece=0.3695 seconds=0.400
+ridge_clip             shots= 8 seed=0    accuracy=0.711638 macro_f1=0.708607 nll=1.8460 ece=0.5191 seconds=0.016
+bayesian_clip_dino     shots= 8 seed=1    accuracy=0.879259 macro_f1=0.880118 nll=0.8775 ece=0.3622 seconds=0.469
+bayesian_clip_only     shots= 8 seed=1    accuracy=0.868629 macro_f1=0.869639 nll=0.9855 ece=0.3885 seconds=0.399
+ridge_clip             shots= 8 seed=1    accuracy=0.696648 macro_f1=0.692644 nll=1.8669 ece=0.5032 seconds=0.017
+bayesian_clip_dino     shots= 8 seed=2    accuracy=0.869992 macro_f1=0.870731 nll=0.8724 ece=0.3361 seconds=0.473
+bayesian_clip_only     shots= 8 seed=2    accuracy=0.860998 macro_f1=0.861305 nll=0.9918 ece=0.3704 seconds=0.400
+ridge_clip             shots= 8 seed=2    accuracy=0.689289 macro_f1=0.681887 nll=1.8774 ece=0.4975 seconds=0.017
+bayesian_clip_dino     shots=16 seed=0    accuracy=0.895339 macro_f1=0.895804 nll=0.8578 ece=0.3874 seconds=1.255
+bayesian_clip_only     shots=16 seed=0    accuracy=0.879804 macro_f1=0.880561 nll=0.9245 ece=0.3838 seconds=1.103
+ridge_clip             shots=16 seed=0    accuracy=0.791496 macro_f1=0.789658 nll=1.6670 ece=0.5774 seconds=0.033
+bayesian_clip_dino     shots=16 seed=1    accuracy=0.890706 macro_f1=0.891602 nll=0.8806 ece=0.3872 seconds=1.248
+bayesian_clip_only     shots=16 seed=1    accuracy=0.878714 macro_f1=0.879560 nll=0.9446 ece=0.3879 seconds=1.093
+ridge_clip             shots=16 seed=1    accuracy=0.773780 macro_f1=0.772272 nll=1.7037 ece=0.5596 seconds=0.033
+bayesian_clip_dino     shots=16 seed=2    accuracy=0.890433 macro_f1=0.890921 nll=0.8949 ece=0.3951 seconds=1.256
+bayesian_clip_only     shots=16 seed=2    accuracy=0.876806 macro_f1=0.877305 nll=0.9314 ece=0.3980 seconds=1.093
+ridge_clip             shots=16 seed=2    accuracy=0.759062 macro_f1=0.754909 nll=1.7195 ece=0.5495 seconds=0.033
+Completed 46 evaluations in 13.945 seconds.
