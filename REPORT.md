@@ -1,4 +1,4 @@
-# AI Assignment #2: Bayesian Exploration of Pre-trained Models
+Bayesian Exploration of Pre-trained Models
 
 | Field | Value |
 |---|---|
